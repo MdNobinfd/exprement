@@ -8,6 +8,7 @@ function App() {
 
   return (
     <>
+    <Menu/>
     <div className="mainmain">
     <div className="main">
       <img src={images} alt="" />
@@ -19,7 +20,6 @@ function App() {
     </div>
     </div>
     <Counter/>
-    <Menu/>
     </>
   )
 }
